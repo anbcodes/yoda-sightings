@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoda Sightings</title>
+    <style>
+        body {
+            background-color: rgb(190, 153, 103);
+            color: rgb(25, 96, 11);
+            text-align: center;
+        }
+         /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 600px) {
+            .image-tag {
+                max-width: 100%;
+            }
+        }
+
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        @media only screen and (min-width: 600px) {
+            .image-tag {
+                max-width: 100%;
+            }
+        }
+
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) {
+            .image-tag {
+                /* max-width: 100%; */
+                max-width: 500px;
+            }
+        }
+
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media only screen and (min-width: 992px) {
+            .image-tag {
+                /* max-width: 100%; */
+                max-width: 500px;
+            }
+        }
+
+        /* Extra large devices (large laptops and desktops, 1200px and up) */
+        @media only screen and (min-width: 1200px) {
+            .image-tag {
+                /* max-width: 100%; */
+                max-width: 600px;
+            }
+        } 
+        
+        .image {
+            margin-bottom: 3rem;
+        }
+        .alt-text {
+            margin-top: 0.5rem;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Yoda Sightings</h1>
+    <p>We've been hiding Baby Yoda around the house. Here's where we've found him :)</p>
+    <div>
+        {{IMAGES}}
+    </div>
+</body>
+</html>
