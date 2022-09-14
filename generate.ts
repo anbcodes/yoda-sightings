@@ -14,6 +14,7 @@ type FileName = string;
 type Text = string;
 
 const metadata: [FileName, Name, DateTime, Text][] = [
+    ['42.jpg', 'Andrew', '5/13/2022 1:16 PM', "Blending in..."],
     ['41.jpg', 'Jason', '5/9/2022 2:30 PM', "Observing..."],
     ['40.jpg', 'Mom', '5/7/2022 2:26 PM', "I think everyone saw me here..."],
     ['39.jpg', 'Jason', '4/18/2022 8:30 PM', "No one will see me here!"],
